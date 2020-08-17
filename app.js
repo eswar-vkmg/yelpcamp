@@ -44,7 +44,7 @@ app.use(function(req, res, next){ // used to push current user details to all ro
 
 // Database connection
 //mongoose.connect("mongodb://localhost:27017/yelp_camp_10", { useNewUrlParser: true,  useUnifiedTopology: true}) 
-mongoose.connect("mongodb+srv://eswar:123@yelpcamp.slcbf.mongodb.net/yelpcamp?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }) 
+mongoose.connect("mongodb+srv://eswar:Rocket816@yelpcamp.slcbf.mongodb.net/yelpcamp?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }) 
 
 var Campground  = require("./models/campground.js"),
     seedDB      = require("./seed.js"), 
